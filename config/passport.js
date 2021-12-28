@@ -8,7 +8,7 @@ module.exports = function (passport) {
       {
         consumerKey: "OnKSjQsmPxpeakaeV8gXhbHrK",
         consumerSecret: "ATrSKvVcW0xm84L3gaRt5leVnvleJMcR7rUgiQmOCMTwKbzSEu",
-        callbackURL: "http://localhost:3000/twitter/callback",
+        callbackURL: "https://upload43.herokuapp.com/twitter/callback",
       },
       async (accessToken, refreshToken, profile, done) => {
         const newUser = {
